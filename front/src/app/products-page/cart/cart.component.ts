@@ -25,7 +25,7 @@ export class CartComponent {
   totalPrice: number = 0;
 
   constructor(private cartService: CartService) {
-    // TODO have cart update based on cartService
+    // TODO 2 have cart update based on cartService
   }
 
   calculateTotalPrice(cart: CartItem[]): void {

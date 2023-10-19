@@ -17,7 +17,7 @@ export class ProductListComponent {
   }];
 
   constructor(private productService: ProductService) {
-    // TODO display products from API on load
+    // TODO 1 display products from API on load
   }
 
 

@@ -25,7 +25,7 @@ class ProductController implements ProductApi {
 
     @Override
     public Product createProduct(Product product) {
-        // TODO add createProduct, should be usable only by logged in user
+        // TODO 3 add createProduct, should be usable only by logged in user
         return null;
     }
 

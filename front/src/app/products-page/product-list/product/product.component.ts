@@ -14,7 +14,6 @@ export class ProductComponent {
   }
 
   addProduct(): void {
-    // TODO add product to on click
     if (this.product)
       this.cartService.addItem(this.product);
   }
