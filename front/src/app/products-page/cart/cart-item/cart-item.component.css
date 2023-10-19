@@ -1,0 +1,15 @@
+.item-container {
+  height: 72px;
+}
+
+.item-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item-header,.item-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

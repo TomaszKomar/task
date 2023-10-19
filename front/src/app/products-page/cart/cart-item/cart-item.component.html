@@ -1,0 +1,14 @@
+<mat-list-item class="item-container" *ngIf="item">
+  <div class="item-header">
+    <span class="item-name">{{item.name}}</span>
+    <button mat-button (click)="removeItem()">X</button>
+  </div>
+  <div class="item-details">
+    <span class="item-price">{{item.price}}$</span>
+    <span class="item-quantity">
+      <button mat-button (click)="increaseQuantity()">+</button>
+      Qty:{{item.quantity}}
+      <button mat-button (click)="decreaseQuantity()">-</button>
+    </span>
+  </div>
+</mat-list-item>

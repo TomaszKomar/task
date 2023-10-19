@@ -1,0 +1,6 @@
+<mat-list *ngFor="let singleItem of cartItems">
+  <app-cart-item [item]="singleItem" />
+</mat-list>
+<p>
+  Total price: {{totalPrice}}$
+</p>

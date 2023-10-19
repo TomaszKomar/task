@@ -1,0 +1,16 @@
+.page-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.page-container .cart-container {
+  display: inline-block;
+  min-width: 300px;
+}
+
+.page-container .page-content {
+  display: inline-block;
+  width: 100%;
+}
